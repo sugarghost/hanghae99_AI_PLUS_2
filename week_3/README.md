@@ -31,7 +31,12 @@ NER은 텍스트에서 개체명(예: 장소, 인물, 조직 등)을 식별하�
 1. **Loss Curve**
    - 초기 손실 값에서 차이가 발생하며 Pre-trained 모델이 5 epoch 학습동안 0.18 -> 0.04로 떨어질때 Untrained 모델은 0.4 -> 0.12 로 격차가 유지되었습니다.
 
+![Training Loss per Epoch](https://github.com/user-attachments/assets/88b6ae57-ec11-4637-be08-8764ea97d4cd)
+
 
 2. **F1 - Score**
    - Pre-trained 모델은 모든 주요 클래스에서 높은 Precision, Recall, F1-Score를 기록했습니다.
    - Untrained 모델은 주요 클래스에서 상대적으로 낮은 성능을 보이고 모델간 초기 격차가 발생했습니다.
+
+![Pre-trained Model F1-Score](https://github.com/user-attachments/assets/4c13c2c7-533f-4c97-bab8-00dd12428441)
+![Untrained Model F1-Score](https://github.com/user-attachments/assets/744aad34-56e1-40c2-875e-3af684f7dd7f)
